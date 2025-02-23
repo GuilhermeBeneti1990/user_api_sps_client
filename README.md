@@ -1,30 +1,14 @@
 ----------------------------------
-ESPANHOL
+STEPS
 ----------------------------------
+-  Rodar "yarn add" para instalar as dependências
+-  Rodar o projeto da API (server) e registrar a rota da API no client
+-  Rodar "yarn start" para rodar a aplicação
+-  Usar as credenciais para login:
+    ```
+    email: admin@spsgroup.com.br,
+    password: 12345
+    ```
 
-## PRUEBA SPS REACT
-
-- Crear un CRUD de usuarios
-
-## Reglas
-
-- Crear la página de inicio de sesión (signIn) para autenticar al usuario (usar el usuario previamente registrado para validar).
-- Se puede utilizar cualquier tipo de almacenamiento para guardar el token.
-- Solo será posible registrar y/o visualizar usuarios si el usuario está autenticado.
-- Consumir la API creada anteriormente (test-sps-server).
-
-
-----------------------------------
-PORTUGUÊS
-----------------------------------
-
-# SPS REACT TEST
-
-- Criar um CRUD de usuários
-
-# Regras
-
-- Criar a página de signIn para fazer a autenticação do usuário (Usar o usuário previamente cadastrado para validar)
-- Pode usar qualquer tipo de storage para guardar o token
-- Só será possível cadastrar e/ou visualizar os usuários se estiver autenticado
-- Chamar a API que foi criada anteriormente (test-sps-server)
+### TODO: A parte de update não está funcionando no client, apenas no server
+    
